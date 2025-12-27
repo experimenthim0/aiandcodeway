@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+@font-face {
+  font-family: 'logofont';
+  src: local('PanchangBold'), url(./fonts/PanchangBold.otf) format('opentype');
+}
+
+.logofont{
+  font-family: logofont,'Courier New', Courier, monospace;
+  font-weight: bold;
+
+}
