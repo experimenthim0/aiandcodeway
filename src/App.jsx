@@ -14,6 +14,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WhatsApp from "./pages/WhatsApp";
 import Indistartups from "./pages/Indistartups";
 import ReactTailwindInst from "./pages/ReactTailwindInst";
+import Promptdirectory from "./pages/Promptdirectory";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
   <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/indistartups" element={<Indistartups />} />
+        <Route path="/promptdirectory" element={<Promptdirectory/>}></Route>
         <Route path="/reacttailwindinst" element={<ReactTailwindInst />}></Route>
         
       </Routes>

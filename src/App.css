@@ -10,9 +10,19 @@ html{
   font-family: 'logofont';
   src: local('PanchangBold'), url(./fonts/PanchangBold.otf) format('opentype');
 }
+@font-face {
+  font-family: 'promptlogofont';
+  src: local('Ubuntu-Medium'), url(./fonts/Ubuntu-Medium.ttf) format('truetype');
+}
 
 .logofont{
   font-family: logofont,'Courier New', Courier, monospace;
   font-weight: bold;
+
+}
+.promptlogofont{
+  font-family: promptlogofont,'Courier New', Courier, monospace;
+  
+
 
 }

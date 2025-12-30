@@ -23,7 +23,7 @@ function Articlesection() {
         {/* <div> */}
             {articles.map((article,index) => (
                 <div key={index}>
-                    <div className='border-[1px] border-gray-400 flex justify-center items-center p-3 flex-col rounded-3xl w-110'>
+                    <div className='border-[1px] border-gray-400 flex justify-center items-center p-3 flex-col rounded-3xl w-100 sm:w-110 '>
                             <img src={article.imgurl} alt="" className='w-auto rounded-2xl'/>
                             <p className='p-2'>{article.info}</p>
 
